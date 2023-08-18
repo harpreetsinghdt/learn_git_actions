@@ -17,4 +17,5 @@ jobs:
         server: 148.66.137.19
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/worldsrank/codehome
+        port: 21
+        server-dir: public_html/worldsrank/codehome/
